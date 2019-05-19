@@ -2,7 +2,7 @@ version: '3.6'
 services:
 
   jenkins:
-    image: jenkins/jenkins:lts
+    image: quay.io/srvbc/jenkins
     container_name: jenkins
     ports:
       - '127.0.0.1:8080:8080'
